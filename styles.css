@@ -1,0 +1,32 @@
+body {
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #633974;
+}
+
+.character-card {
+    color: white;
+    background-image: url(https://img.freepik.com/vector-gratis/controles-videojuegos-enmarcados-estilo-neon-pared-ladrillo_24908-58914.jpg?size=338&ext=jpg&ga=GA1.1.1880011253.1699488000&semt=ais);
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px 40px 5px 40px;
+    width: calc(33.33% - 20px); /* Ancho del 33.33% con márgenes incluidos */
+}
+
+
+.character-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #c96363;
+}
+.character-card:hover h2 {
+    color: rgb(206, 5, 62)
+}
+/* Estilo de cursor al pasar sobre las tarjetas */
+.character-card:hover {
+    cursor: pointer;
+}
